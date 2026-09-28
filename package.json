@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tallyqueue",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tally config/queue key checks for twelve-factor services.",
+  "bin": {
+    "tallyqueue": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tallyqueue.git"
+  },
+  "homepage": "https://theworker02.github.io/tallyqueue/",
+  "keywords": [
+    "tally",
+    "queue",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
